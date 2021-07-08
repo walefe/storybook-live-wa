@@ -2,7 +2,6 @@ import * as S from './styles';
 
 export type ButtonProps = {
   children?: React.ReactNode
-  type?: 'default' | 'primary' | 'disabled'
   size?: 'small' | 'medium' | 'large'
   fullWidth?: boolean
   icon?: JSX.Element
